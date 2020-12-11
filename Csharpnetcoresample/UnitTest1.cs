@@ -30,7 +30,6 @@ namespace Csharpnetcoresample
             Driver.FindElement(By.XPath("//input[@name='ctl00$ContentPlaceHolder1$ChildMeal1']/following-sibling::div[text()='Celery']")).Click();
             
             
-            Console.WriteLine("This is a sample test");
 
             Assert.Pass();
         }
